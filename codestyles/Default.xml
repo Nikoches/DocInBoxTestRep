@@ -1,0 +1,6 @@
+<code_scheme name="Default" version="173">
+  <JavaCodeStyleSettings>
+    <option name="REPLACE_INSTANCEOF" value="true" />
+    <option name="REPLACE_CAST" value="true" />
+  </JavaCodeStyleSettings>
+</code_scheme>
