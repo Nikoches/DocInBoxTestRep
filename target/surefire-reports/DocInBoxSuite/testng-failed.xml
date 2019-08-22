@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DocInBoxSuite]" verbose="0">
+  <parameter name="value" value="01.12.2029 09:01:02"/>
+  <test name="test suite(failed)">
+    <parameter name="value" value="01.12.2029 09:01:02"/>
+    <classes>
+      <class name="DocInBoxTest.DocInBoxDateTest">
+        <methods>
+          <include name="CheckNormRequest"/>
+        </methods>
+      </class> <!-- DocInBoxTest.DocInBoxDateTest -->
+    </classes>
+  </test> <!-- test suite(failed) -->
+</suite> <!-- Failed suite [DocInBoxSuite] -->

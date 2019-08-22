@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-22T10:11:02 MSK" name="Command line suite" finished-at="2019-08-22T10:11:03 MSK" duration-ms="1040">
+    <groups>
+    </groups>
+    <test started-at="2019-08-22T10:11:02 MSK" name="Command line test" finished-at="2019-08-22T10:11:03 MSK" duration-ms="1040">
+      <class name="DocInBoxTest.DocInBoxDateTest">
+        <test-method signature="checkConnection()[pri:0, instance:DocInBoxTest.DocInBoxDateTest@17046283]" started-at="2019-08-22T10:11:02 MSK" name="checkConnection" finished-at="2019-08-22T10:11:02 MSK" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkConnection -->
+        <test-method signature="checkFutureDateRequest(org.json.simple.JSONObject, java.lang.String)[pri:0, instance:DocInBoxTest.DocInBoxDateTest@17046283]" started-at="2019-08-22T10:11:02 MSK" name="checkFutureDateRequest" data-provider="TestType" finished-at="2019-08-22T10:11:02 MSK" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"systemInfo":"system=1C77;version=2.12.32.32;configVersion=1РЎ Р±СѓС\u2026РіР°Р»С\u201AРµСЂРёСЏ 10.3;clientVersion=1.2.3;ssl=true","payload":{"documents":[{"seller":{"additionalId":"office1","inn":"7729671578","name":"РўРµСЃС\u201A РџРѕСЃС\u201AР°РІС\u2030РёРє","kpp":"772345001"},"date":"01.11.2029 09:01:02","ttnNumber":"TTN-as78917293723","incomingNumber":"178939719898","invoiceNumber":"INV-127891789123","sum":27892.77,"comment":"РљРѕРјРјРµРЅС\u201AР°СЂРёР№","items":[{"totalSum":118.0,"amount":1.23,"code":"cucumber","measure":"РєРі","ndsSum":18.0,"name":"РћРіСѓСЂС\u2020С\u2039","ndsPercent":18.0,"storeCode":"bar"}],"buyer":{"additionalId":"office1","inn":"7841495202","name":"РўРµСЃС\u201A РїРѕРєСѓРїР°С\u201AРµР»СЊ","kpp":"784101001"}}]},"secretWord":"e003be61-9b1b-4d03-9c6f-248d015ca6ed"}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invoice № 178939719898 cannot be imported. Invalid Document Date: Thu Nov 01 09:01:02 MSK 2029. Please, contact support. Tel.: +7 800 555-96-79; e-mail: support@docsinbox.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFutureDateRequest -->
+        <test-method signature="checkPastDateRequest(org.json.simple.JSONObject, java.lang.String)[pri:0, instance:DocInBoxTest.DocInBoxDateTest@17046283]" started-at="2019-08-22T10:11:02 MSK" name="checkPastDateRequest" data-provider="TestType" finished-at="2019-08-22T10:11:03 MSK" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"systemInfo":"system=1C77;version=2.12.32.32;configVersion=1РЎ Р±СѓС\u2026РіР°Р»С\u201AРµСЂРёСЏ 10.3;clientVersion=1.2.3;ssl=true","payload":{"documents":[{"seller":{"additionalId":"office1","inn":"7729671578","name":"РўРµСЃС\u201A РџРѕСЃС\u201AР°РІС\u2030РёРє","kpp":"772345001"},"date":"04.11.1029 09:01:02","ttnNumber":"TTN-as78917293723","incomingNumber":"178939719898","invoiceNumber":"INV-127891789123","sum":27892.77,"comment":"РљРѕРјРјРµРЅС\u201AР°СЂРёР№","items":[{"totalSum":118.0,"amount":1.23,"code":"cucumber","measure":"РєРі","ndsSum":18.0,"name":"РћРіСѓСЂС\u2020С\u2039","ndsPercent":18.0,"storeCode":"bar"}],"buyer":{"additionalId":"office1","inn":"7841495202","name":"РўРµСЃС\u201A РїРѕРєСѓРїР°С\u201AРµР»СЊ","kpp":"784101001"}}]},"secretWord":"e003be61-9b1b-4d03-9c6f-248d015ca6ed"}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invoice № 178939719898 cannot be imported. Invalid Document Date: Wed Oct 29 09:30:45 MSK 1029. Please, contact support. Tel.: +7 800 555-96-79; e-mail: support@docsinbox.ru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPastDateRequest -->
+      </class> <!-- DocInBoxTest.DocInBoxDateTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

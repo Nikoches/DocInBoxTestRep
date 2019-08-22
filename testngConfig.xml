@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DocInBoxTestSuite" parallel="false">
+  <test name="DateTest">
+    <classes>
+      <class name="DocInBoxTest.DocInBoxDateTest"/>
+    </classes>
+  </test>
+  <test name="DuplicateDocumentTest">
+    <classes>
+      <class name="DocInBoxTest.DocInBoxDuplicateTest"/>
+    </classes>
+  </test>
+  <test name="InvalidParametrsTest">
+    <classes>
+      <class name="DocInBoxTest.DocInBoxInvalidParametrsTest"/>
+    </classes>
+  </test>
+</suite>  

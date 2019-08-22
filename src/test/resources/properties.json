@@ -1,0 +1,40 @@
+{
+  "secretWord": "e003be61-9b1b-4d03-9c6f-248d015ca6ed",
+  "systemInfo": "system=1C77;version=2.12.32.32;configVersion=1С бухгалтерия 10.3;clientVersion=1.2.3;ssl=true",
+  "payload": {
+    "documents": [
+      {
+        "seller": {
+          "inn": "7729671578",
+          "name": "Тест Поставщик",
+          "additionalId": "office1",
+          "kpp": "772345001"
+        },
+        "buyer": {
+          "inn": "7841495202",
+          "name": "Тест покупатель",
+          "additionalId": "office1",
+          "kpp": "784101001"
+        },
+        "incomingNumber": "178939719898",
+        "ttnNumber": "TTN-as78917293723",
+        "invoiceNumber": "INV-127891789123",
+        "date": "01.12.2020 09:01:02",
+        "sum": 27892.77,
+        "comment": "Комментарий",
+        "items": [
+          {
+            "name": "Огурцы",
+            "code": "cucumber",
+            "measure": "кг",
+            "amount": 1.23,
+            "ndsPercent": 18.0,
+            "ndsSum": 18.0,
+            "totalSum": 118.0,
+            "storeCode": "bar"
+          }
+        ]
+      }
+    ]
+  }
+}

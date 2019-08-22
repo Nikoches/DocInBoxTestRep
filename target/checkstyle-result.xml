@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\gs-rest-service\test_case\src\test\java\DocInBoxTest\DocInBoxDateTest.java">
+<error line="1" column="9" severity="error" message="Name &apos;DocInBoxTest&apos; must match pattern &apos;^[a-z]+(\.[a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="46" column="23" severity="error" message="Name &apos;TestType&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="C:\gs-rest-service\test_case\src\test\java\DocInBoxTest\DocInBoxDuplicateTest.java">
+<error line="1" column="9" severity="error" message="Name &apos;DocInBoxTest&apos; must match pattern &apos;^[a-z]+(\.[a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="31" column="23" severity="error" message="Name &apos;TestType2&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="C:\gs-rest-service\test_case\src\test\java\DocInBoxTest\DocInBoxInvalidParametrsTest.java">
+<error line="1" column="9" severity="error" message="Name &apos;DocInBoxTest&apos; must match pattern &apos;^[a-z]+(\.[a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="32" column="23" severity="error" message="Name &apos;TestType3&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+</checkstyle>
