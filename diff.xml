@@ -27,8 +27,8 @@
       <entry key="TestsFiledAssertions">
         <PlaceSettings>
           <option name="ENABLE_SYNC_SCROLL" value="false" />
-          <option name="HIGHLIGHTING_LEVEL" value="SIMPLE" />
-          <option name="HIGHLIGHT_POLICY" value="BY_WORD_SPLIT" />
+          <option name="HIGHLIGHTING_LEVEL" value="ADVANCED" />
+          <option name="HIGHLIGHT_POLICY" value="BY_LINE" />
           <option name="SHOW_INDENT_LINES" value="true" />
           <option name="SHOW_WHITESPACES" value="true" />
         </PlaceSettings>
