@@ -1,6 +1,6 @@
 <application>
   <component name="VisualVMLauncher">
-    <option name="jdkHome" value="C:/Tools/jdk-13" />
+    <option name="jdkHome" value="C:/Tools/jdk-11.0.2" />
     <option name="visualVmExecutable" value="C:/Tools/graalvm-ce-19.2.0.1/bin/jvisualvm.exe" />
   </component>
 </application>
