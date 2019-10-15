@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
+      <removed_mapping ext="mustache" approved="true" type="Handlebars/Mustache" />
       <mapping pattern="Graal 02/20/2019" type="PLAIN_TEXT" />
       <mapping ext="mustache" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
@@ -14,6 +15,7 @@
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping ext="mustache" approved="true" type="Handlebars/Mustache" />
     </extensionMap>
   </component>
 </application>
