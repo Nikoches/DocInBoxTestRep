@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
+      <removed_mapping ext="mustache" approved="true" type="Handlebars/Mustache" />
       <mapping pattern="Graal 02/20/2019" type="PLAIN_TEXT" />
       <mapping ext="mustache" type="PLAIN_TEXT" />
       <mapping ext="exec" type="PLAIN_TEXT" />
